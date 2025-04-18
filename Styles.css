@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+/*
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*/
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Delius","poppins", serif;
+}
+ body{
+    background-color: #0a0a3f;
+ }
+
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1000px;
+ }  
+ hr{
+    opacity: 20%;
+ }
+.navigation ul{
+    display: flex;
+    list-style-type:none ;
+    gap: 2rem;
+}
+.navigation a {
+    color: white;
+    text-decoration: none ;
+}
+.navigation a:hover {
+    color: rgb(248, 248, 43);
+    font-size:x-large;
+}
+.Herosub {
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;    
+}
+.Hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1000px;
+}
+.HeroBtns{
+   display: flex;
+   gap:1rem;
+   margin-top: 5px;
+}
+.HireMe{
+    background-color: #00adb4;
+    color: #eeeeee;
+    border-radius: 15px;
+    text-decoration:none ;
+    padding: 0.5rem;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0,0.5);
+}
+.cv{
+    /* background-color: #00adb4; */
+    color: #eeeeee;
+    border-radius: 15px;
+    text-decoration:none ;
+    padding: 0.5rem;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0,0.5);
+    /* backdrop-filter: blur(9px); */
+    backdrop-filter: invert(10%);
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    
+}
+/*
+.arrow{
+    position: absolute;
+    transform: translateX(-5.5px) translateY(1.5rem);
+}*/
+.Name{
+    font-size:2rem;
+    color: #eeeeee;
+    
+}
+.Title{
+    font-size: 40px   ;
+    color:#00adb4;
+
+}
+.AboutMe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    grid-area: 10rem;
+}
+.DivContainer{
+    display: flex;
+    flex-direction: column;
+}
+.DivTitle{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-size: 22px ;
+    color: #eeeeee;
+}
+
+
+.AboutMeP{
+    text-align: justify;
+    max-width: 85%;
+    font-style: italic;
+    color: #00adb4;
+}
+.works{
+    background-image: url("assets/svg/background.svg");
+    padding: 10rem  10rem;
+    margin: 5rem  0rem;
+}
+.worksContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:left;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+.projectTitle{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 0.5rem;
+    color:#eeeeee;
+    font-size: 22px;
+    margin: 1.5rem 0rem;
+}
+.works ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center
+
+}
+.works li{
+    border-radius: 16px;
+    background-color: rgba(48, 54, 56, 0.5);
+    /* background-color: rgb(57, 62, 70,0.5); */
+    padding: 1rem 2rem;
+    backdrop-filter: blur(4px);
+}
+.works li img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    transition: transform 0.5s;
+}
+.works li:hover {
+    transform: scale(1.5);
+}
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+.contactTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#eeeeee;
+    font-size: 22px;
+    margin-bottom:10px;
+    gap:15px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15rem ;
+}
+.contact h3 , .contact a{
+    color: #eeeeee;
+    text-decoration: none;
+}
+.mail-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+}
+ .socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 1rem auto;
+}
+.socialMedia a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: rgba(48, 54, 56, 0.5);
+    backdrop-filter:blur(4px) ;
+}
+.socialMedia img{
+    width: 24px;
+    height: 24px;
+}
+footer{
+    font: bold 24px "poppins";
+    color: #00adb4;
+    text-align: center;
+    margin: 1rem auto;
+}
